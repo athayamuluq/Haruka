@@ -12,7 +12,7 @@ function toCommas(x) {
     return x;
 }
 
-exports.allMenu = (ucapanWaktu, pushname, mundur, upload, download, ownerName, botName, jam, tanggal, runtime, isCreator, isPremium, sender, limitCount, limit, gcount, glimit, balance, prefix) => {
+exports.allMenu = (role, ucapanWaktu, pushname, mundur, upload, download, ownerName, botName, jam, tanggal, runtime, isCreator, isPremium, sender, limitCount, limit, gcount, glimit, balance, prefix) => {
     return`${ucapanWaktu} ${pushname !== undefined ? pushname : 'Kak'}
 
 Hitung Mundur Tahun Baru
@@ -35,7 +35,9 @@ ${mundur}
  • Limit : ${isCreator ? 'Unlimited' : isPremium ? 'Unlimited' : getLimit(sender, limitCount, limit)}
  • Limit Game : ${isCreator ? 'Unlimited' : cekGLimit(sender, gcount, glimit)}
  • Balance : ${toCommas(getBalance(sender, balance))}
-
+ • Role : ${role}
+ 
+ 
 *MAIN MENU*${petik}
  • ${prefix}menu
  • ${prefix}infobot
@@ -69,6 +71,7 @@ ${mundur}
  • ${prefix}translate${petik}
 
 *ANONYMOUS CHATS*${petik}
+• ${prefix}menfess nama|62xxx|pesan
  • ${prefix}anonymous
  • ${prefix}start
  • ${prefix}next
@@ -130,7 +133,9 @@ ${mundur}
  • ${prefix}ytmp3
  • ${prefix}ytmp4
  • ${prefix}instagram
- • ${prefix}igstory
+ • ${prefix}igphoto
+ • ${prefix}igvideo
+ • ${prefix}igreels
  • ${prefix}tiktok
  • ${prefix}tiktoknowm
  • ${prefix}tiktokaudio
