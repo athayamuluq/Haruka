@@ -1,13 +1,13 @@
 <p align="center">
-<img src="https://github.com/athayamuluq/Alpha/blob/main/image/lol.jpg" alt="ALPHA BOT" width="100"/>
+<img src="https://github.com/zeeone-ofc/Haruka-Md/blob/v1/media/Haruka.jpg" alt="ALPHA BOT" width="100"/>
 
 
 </p>
 <p align="center">
-<a href="#"><img title="TORU MULTI DEVICE" src="https://img.shields.io/badge/HARUKA MULTI DEVICE-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="HARUKA MULTI DEVICE" src="https://img.shields.io/badge/HARUKA MULTI DEVICE-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
-<a href="https://github.com/athayamuluq/Toru-Md"><img title="Owner" src="https://img.shields.io/badge/Recode-ZeeoneOfc-red.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/zeeone-ofc/Haruka-Md"><img title="Owner" src="https://img.shields.io/badge/Recode-ZeeoneOfc-red.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
 <a href="https://github.com/zeeone-ofc/followers"><img title="Followers" src="https://img.shields.io/github/followers/zeeone-ofc?color=red&style=flat-square"></a>
@@ -54,17 +54,17 @@ npm start
 `./config.json`
 ```{
     "ownerNumber": ["62895366601524@s.whatsapp.net","6281257760202@s.whatsapp.net"],
-    "ownerName": "athayamuluq",
+    "ownerName": "Athayamuluq",
     "instagram" : "https://instagram.com/athayamuluq",
-    "botName": "Toru-Md ",
-    "footer": "api.zeeoneofc.xyz",
+    "botName": "Torubot ",
+    "footer": "youtube.com/athayamuluq",
     "sessionName": "session",
     "pathimg": "./media/Haruka.jpg",
     "BotKey": "V12",
     "auto_welcomeMsg": true,
     "auto_leaveMsg": true,    
     "autobio": true,
-    "gamewaktu": 90,
+    "gamewaktu": 60,
     "limitCount": 25,
     "gcount": {
         "prem": 1000,
